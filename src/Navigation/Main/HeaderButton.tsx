@@ -12,8 +12,11 @@ export const HeaderButton = ({label}:HeaderButtonProps) => {
     );
   }
 
-  const HeaderButtonContainer = styled.div({
+  const HeaderButtonContainer = styled.button({
     color: 'orange',
-    margin: '10px',
+    margin: '10px 30px',
+    backgroundColor: "#FAF9F6",
+    border: "none",
+    cursor: "pointer"
   });
   
