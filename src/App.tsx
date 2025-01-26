@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from './Navigation/Main'
 
 export const App = () => {
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +19,7 @@ export const App = () => {
         >
           Learn React
         </a>
+        
       </header>
     </div>
   );
