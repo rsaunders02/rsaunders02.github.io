@@ -21,7 +21,7 @@ const HeaderContainer = styled.div({
   display: "flex",
   justifyContent: "center",
   backgroundColor: "#FAF9F6",
-  width: "50%",
+  width: "fit-content",
   borderRadius: "50px",
   boxShadow: "5px 2px grey",
   margin: "20px",
