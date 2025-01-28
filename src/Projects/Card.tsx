@@ -4,7 +4,7 @@ export const Card = () => {
   return (
     <CardContainer>
       <CardContainerInner>
-        <Title>School Donation Site</Title>
+        <Title>School Donation Site!!!</Title>
         <Description>This is a description</Description>
       </CardContainerInner>
     </CardContainer>
